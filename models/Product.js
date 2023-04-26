@@ -18,6 +18,12 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
+    // Define product_name column
+    product_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    // Define price column
     
   },
   {
