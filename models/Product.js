@@ -32,6 +32,15 @@ Product.init(
       }
     },
     // Define stock column
+    stock: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 10,
+      validate: {
+        isNumeric: true
+      }
+    },
+    // Define category_id column
   },
   {
     sequelize,
