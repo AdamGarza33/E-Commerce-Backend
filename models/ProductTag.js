@@ -23,6 +23,15 @@ ProductTag.init(
         key: 'id'
       }
     },
+    // Define tag_id column
+    tag_id: {
+      type: DataTypes.INTEGER,
+      // Refrences the tag model id
+      references: {
+        model: 'tag',
+        key: 'id'
+      }
+    }
   },
   {
     sequelize,
