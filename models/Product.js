@@ -24,7 +24,14 @@ Product.init(
       allowNull: false,
     },
     // Define price column
-    
+    price: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+      validate: {
+        isDecimal: true
+      }
+    },
+    // Define stock column
   },
   {
     sequelize,
