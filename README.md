@@ -30,5 +30,5 @@ npm install dotenv
 
 ## Usage
 
-[Walkthrough video]()
+[Walkthrough video](https://drive.google.com/file/d/1lVX2dmAMguaAUFVA_I12hJ8QJ1gg5ia_/view?usp=share_link)
 
